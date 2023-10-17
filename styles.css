@@ -1,0 +1,221 @@
+#title{
+ color: #fff;
+  background-color: #ff4c68;
+}
+
+h1 {  
+  font-family: 'Poppins';  
+  font-size: 3rem; 
+   line-height: 1.5;  
+   font-weight: 600;
+  }
+  h2{
+    font-family: 'ubuntu';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #ff4c68;
+
+  }
+  .container-fluid{
+    padding: 2% 25%;
+  }
+  
+  /* Navigation bar */
+  
+  .navbar{
+    padding:0 0 4.5rem 0;
+  }
+  .navbar-brand{
+    
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+body{
+  font-family:'Poppins' ;
+  overflow-x:hidden ;    
+}
+.nav-item{
+  padding: 0 15px;
+}
+nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+
+}
+/* Download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* title image */
+.image{
+  width: 40%;
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  margin-top: 50px;
+  position: absolute;
+}
+ h3{
+  color: black;
+font-family: "Poppins";
+ }
+ p{
+  color: grey;
+ }
+ #features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  bottom:250px;
+
+ }
+ .x{
+  text-align: center;
+  padding: 5%;
+ }
+.icon{
+  margin-bottom: 50px;
+  color: #ef8172
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testimonials */
+
+#testimonials{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+}
+.dog{
+  width: 10%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+  position: relative;
+  bottom: 250px;
+}
+.media{
+ width: 50%;
+  margin: 20px 20px 20px 50px;
+
+}
+/*  pricing section */
+#pricing{
+  padding:45px 0 60px 0 ;
+background-color: #fff;
+  text-align: center;
+ position: relative;
+  bottom:100px ;
+  width: 70%;
+  margin: auto;
+  color: #ff4c68;
+}
+.footer{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  font-family: "ubuntu";
+ height: calc(100px + 200px);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#footer{
+ background-color: white;
+ text-align: center;
+ font-family: "ubuntu";
+ color: black;
+ height: 200px;
+ 
+}
+.brand{
+  margin: 20px 15px;
+}
+/* mobile phone optimization */
+@media(max-width : 991px){
+  #title{
+    text-align: center;
+    
+  }
+  .image{
+    position: static;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  top: 250px ;
+  
+ }
+ #testimonials{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 250px;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+  position: relative;
+  top: 250px;
+}
+
+#pricing{
+  padding:45px 0 60px 0 ;
+background-color: #fff;
+  text-align: center;
+  position: relative;
+  top:260px ;
+  width: 50%;
+  margin: auto;
+  color: #ff4c68;
+}
+.footer{
+  background-color: #ff4c68;
+  position: relative;
+  top: 200px;
+  text-align: center;
+  font-family: "ubuntu";
+ height: calc(100px + 90px);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#footer{
+  background-color: #fff;
+ text-align: center;
+ font-family: "ubuntu";
+ color: black;
+ position: relative;
+ top: 180px;
+ height: 70px;
+}
+}
